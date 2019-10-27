@@ -1,0 +1,123 @@
+/* body {
+    margin: 0;
+    padding: 0;
+}
+
+header #header-logo img {
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+}
+
+header {
+    background: orange;
+}
+
+.menu {
+    background: #252525;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+.menu li,
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    color: #959595;
+    display: inline-block;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+
+.menu a:hover {
+    color: #fff;
+}
+
+
+
+@media (max-width:768px) {
+    .menu li {
+       text-align: center;
+    }
+
+    .menu a {
+        padding: 16px;
+    }
+} */
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header #header-logo img {
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+}
+
+header {
+    background: orange;
+}
+
+/* Styles for nav menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(193, 192, 255);
+    /*width: 30%;*/
+}
+
+nav li a {
+    background-color: rgb(193, 192, 255);
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+nav li {
+    display: block;
+}
+
+@media (max-width: 700px) {
+    nav {
+        background-color: rgb(193, 192, 255);
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        overflow: hidden;
+        width: 30%;
+    }
+
+    nav ul li:hover {
+        background: yellow;
+    }
+
+    nav li a {
+        background-color: rgb(193, 192, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: black;
+        width: 100%;
+    }
+
+    nav li {
+        display: block;
+        float: left;
+    }
+}
