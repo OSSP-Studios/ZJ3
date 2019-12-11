@@ -1,0 +1,35 @@
+ header {
+    background: red;
+    height: 100px;
+}
+/*
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+ */
+
+/*navigace*/
+nav ul {
+    position: relative;
+    margin: 0px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
