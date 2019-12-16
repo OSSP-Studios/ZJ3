@@ -9,6 +9,7 @@ body {
     width: 100%;
 }
 
+/* HEAD */
 header {
     float: left;
     border: 1px solid red;
@@ -30,7 +31,19 @@ nav {
 }
 
 /* IMAGES SECTION */
-.image-collum-right {
-    float: right;
-
+.top-collumns {
+    width: 100%;
 }
+
+.first-collumn-left img,
+.second-collumn-left img {
+    width: 30%;
+    float: left;
+}
+
+.image-collum-right > img {
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
