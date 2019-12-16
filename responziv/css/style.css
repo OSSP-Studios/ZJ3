@@ -1,0 +1,36 @@
+body {
+    background: #212830 url('../img/bg.png');
+    color: rgb(196, 191, 191);
+}
+
+#wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    float: left;
+    border: 1px solid red;
+    width: 100%;
+}
+
+header > img {
+    float: left;
+    width: auto;
+    height: 100px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+nav {
+    float: right;
+}
+
+/* IMAGES SECTION */
+.image-collum-right {
+    float: right;
+
+}
